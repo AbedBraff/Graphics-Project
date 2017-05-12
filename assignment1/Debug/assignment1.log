@@ -1,0 +1,75 @@
+﻿Build started 5/1/2017 12:37:41 PM.
+     1>Project "E:\cs465\graphicsproject\assignment1\assignment1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         B:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\shared\GLee.c
+         GLee.c
+     1>e:\cs465\graphicsproject\shared\glee.c(9306): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 b:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>e:\cs465\graphicsproject\shared\glee.c(9374): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 b:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+         B:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\shared\gltools.cpp ..\shared\math3d.cpp assignment1.cpp
+         assignment1.cpp
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(273): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(279): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(282): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(283): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(286): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(287): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(291): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(292): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(300): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(301): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(303): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(307): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(308): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(310): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(314): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(315): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(317): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(321): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(322): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(324): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(333): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(337): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(345): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(349): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(362): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(364): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(366): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(368): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(390): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(398): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(465): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(474): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(483): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(492): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(502): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(512): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(521): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(529): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(539): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(549): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(579): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(589): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>e:\cs465\graphicsproject\assignment1\assignment1.cpp(681): warning C4305: '+=' : truncation from 'double' to 'float'
+         math3d.cpp
+         gltools.cpp
+     1>e:\cs465\graphicsproject\shared\gltools.cpp(431): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 b:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>e:\cs465\graphicsproject\shared\gltools.cpp(474): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 b:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>e:\cs465\graphicsproject\shared\gltools.cpp(565): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 b:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+         Generating Code...
+       Link:
+         B:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\cs465\graphicsproject\Debug\assignment1.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libc.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\cs465\graphicsproject\Debug\assignment1.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\cs465\graphicsproject\Debug\assignment1.lib" /MACHINE:X86 Debug\GLee.obj
+         Debug\gltools.obj
+         Debug\math3d.obj
+         Debug\assignment1.obj
+     1>GLee.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+         assignment1.vcxproj -> E:\cs465\graphicsproject\Debug\assignment1.exe
+     1>Done Building Project "E:\cs465\graphicsproject\assignment1\assignment1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:28.58
